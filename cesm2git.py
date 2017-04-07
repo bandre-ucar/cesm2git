@@ -212,7 +212,6 @@ def remove_current_working_copy():
         ".ChangeLog_template",
         ".CLMTrunkChecklist",
         "UpDateChangeLog.pl",
-        "Copyright",
         "README",
         "README_cime",
         "README_EXTERNALS",

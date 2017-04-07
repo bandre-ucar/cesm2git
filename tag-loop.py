@@ -108,6 +108,7 @@ def write_config_file(config, filename):
 
 def main(options):
     tags = [
+        'rtm1_0_01',
         'rtm1_0_02',
         'rtm1_0_03',
         'rtm1_0_04',
