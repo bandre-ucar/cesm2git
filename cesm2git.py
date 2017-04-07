@@ -230,6 +230,7 @@ def remove_current_working_copy():
         "doc",
         "bld",
         "src",
+        "cimetest",
         "cime_config",
     ]
 
@@ -576,6 +577,15 @@ def git_add_new_cesm(new_tag, git_externals, log_info):
         print(" ".join(cmd))
     subprocess.check_output(cmd, shell=False, stderr=subprocess.STDOUT)
 
+    cmd = [
+        "git",
+        "tag", "--annotate",
+        "-m", "\'tag {0} from svn\'".format(new_tag),
+        new_tag
+    ]
+    if True:
+        print(" ".join(cmd))
+    subprocess.check_output(cmd, shell=False, stderr=subprocess.STDOUT)
 
 def git_status():
     """run the git status command
@@ -595,6 +605,7 @@ def push_to_origin_and_cleanup(branch, new_dir, temp_repo_dir):
     cmd = [
         "git",
         "push",
+        "--tags",
         "origin",
         branch,
     ]
