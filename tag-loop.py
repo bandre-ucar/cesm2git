@@ -21,6 +21,7 @@ if sys.hexversion < 0x02070000:
 # built-in modules
 #
 import argparse
+import json
 import os
 import subprocess
 import traceback
@@ -38,12 +39,12 @@ else:
 # other modules in this package
 #
 
+
 # -------------------------------------------------------------------------------
 #
 # User input
 #
 # -------------------------------------------------------------------------------
-
 def commandline_options():
     """Process the command line arguments.
 
@@ -58,8 +59,16 @@ def commandline_options():
     parser.add_argument('--debug', action='store_true',
                         help='extra debugging output')
 
+    parser.add_argument('--dry-run', action='store_true', default=False,
+                        help='dry run setting up changes, '
+                        'but not calling external programs.')
+
     parser.add_argument('--config', nargs=1, required=True,
                         help='path to config file')
+
+    parser.add_argument('--tag-file', nargs=1, required=True,
+                        help='path to text file containing tags '
+                        'to be imported')
 
     options = parser.parse_args()
     return options
@@ -74,7 +83,7 @@ def read_config_file(filename):
     """Read the configuration file and process
 
     """
-    print("Reading configuration file : {0}".format(filename))
+    #print("Reading configuration file : {0}".format(filename))
 
     cfg_file = os.path.abspath(filename)
     if not os.path.isfile(cfg_file):
@@ -90,7 +99,7 @@ def write_config_file(config, filename):
     """Read the configuration file and process
 
     """
-    print("Writing configuration file : {0}".format(filename))
+    #print("Writing configuration file : {0}".format(filename))
 
     cfg_file = os.path.abspath(filename)
     if not os.path.isfile(cfg_file):
@@ -100,93 +109,58 @@ def write_config_file(config, filename):
         config.write(configfile)
 
 
+def get_tag_list(tag_filename):
+    """read the list of tags to be converted.
+
+    tag_file is a plain text in containing json
+    """
+    with open(tag_filename, 'r') as tag_file:
+        tags = json.load(tag_file)
+
+    return tags
+
+
 # -------------------------------------------------------------------------------
 #
 # main
 #
 # -------------------------------------------------------------------------------
-
 def main(options):
-    tags = [
-        'rtm1_0_01',
-        'rtm1_0_02',
-        'rtm1_0_03',
-        'rtm1_0_04',
-        'rtm1_0_05',
-        'rtm1_0_06',
-        'rtm1_0_07',
-        'rtm1_0_08',
-        'rtm1_0_09',
-        'rtm1_0_10',
-        'rtm1_0_11',
-        'rtm1_0_12',
-        'rtm1_0_13',
-        'rtm1_0_14',
-        'rtm1_0_15',
-        'rtm1_0_16',
-        'rtm1_0_17',
-        'rtm1_0_18',
-        'rtm1_0_19',
-        'rtm1_0_20',
-        'rtm1_0_21',
-        'rtm1_0_22',
-        'rtm1_0_23',
-        'rtm1_0_24',
-        'rtm1_0_25',
-        'rtm1_0_26',
-        'rtm1_0_27',
-        'rtm1_0_28',
-        'rtm1_0_29',
-        'rtm1_0_30',
-        'rtm1_0_31',
-        'rtm1_0_32',
-        'rtm1_0_33',
-        'rtm1_0_34',
-        'rtm1_0_35',
-        'rtm1_0_36',
-        'rtm1_0_37',
-        'rtm1_0_38',
-        'rtm1_0_39',
-        'rtm1_0_40',
-        'rtm1_0_41',
-        'rtm1_0_42',
-        'rtm1_0_43',
-        'rtm1_0_44',
-        'rtm1_0_45',
-        'rtm1_0_46',
-        'rtm1_0_47',
-        'rtm1_0_48',
-        'rtm1_0_49',
-        'rtm1_0_50',
-        'rtm1_0_51',
-        'rtm1_0_52',
-        'rtm1_0_53',
-        'rtm1_0_54',
-        'rtm1_0_55',
-        'rtm1_0_56',
-        'rtm1_0_57',
-        'rtm1_0_58',
-        'rtm1_0_59',
-        'rtm1_0_60',
-        'rtm1_0_61',
-    ]
-
+    tags = get_tag_list(options.tag_file[0])
     config_filename = options.config[0]
-    for t in tags:
+    for tag in tags["config"]:
+        print("Processing : {0}".format(tag["tag"]))
         config = read_config_file(config_filename)
 
-        tag = "rivrtm/trunk_tags/{0}".format(t)
-        config.set('cesm', 'tag', tag)
+        tag_path = os.path.join(tags["tag_directory"], tag["tag"])
+
+        config.set('cesm', 'tag', tag_path)
+
+        config.set('cesm', 'checkout_externals',
+                   str(tag['checkout_externals']))
+        config.set('cesm', 'collapse_standalone',
+                   str(tag['collapse_standalone']))
+        config.set('cesm', 'shift_root_files', str(tag['shift_root_files']))
+        optional_keys = ['shift_root_suffix', 'standalone_path']
+        for k in optional_keys:
+            try:
+                config.set('cesm', k, tag[k])
+            except KeyError:
+                config.set('cesm', k, str(None))
 
         write_config_file(config, config_filename)
 
-        cmd = ['./rtm/cesm2git.py',
+        cmd = ['./clm-experimental/cesm2git.py',
                '--config',
                config_filename,
                '--feelin-lucky',
                ]
-        print(tag)
-        subprocess.check_output(cmd, shell=False, stderr=subprocess.STDOUT)
+
+        if not options.dry_run:
+            subprocess.check_output(cmd, shell=False,
+                                    stderr=subprocess.STDOUT)
+        else:
+            print(tag_path)
 
     return 0
 

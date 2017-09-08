@@ -1,0 +1,3803 @@
+{
+    "tag_directory": "clm2/trunk_tags",
+    "config": [
+        {
+            "tag": "clm3_expa_48",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_49",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_50",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_51",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_52",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_53",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_54",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_55",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_56",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_57",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_58",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_59",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_60",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_61",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_62",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_63",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_64",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_65",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_66",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_67",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_68",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_69",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_70",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_71",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_72",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_73",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_74",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_75",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_76",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_77",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_78",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_79",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_80",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_81",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_82",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_83",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_84",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_85",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_86",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_87",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_88",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_89",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_90",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_91",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_92",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_93",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_94",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_95",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_96",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_97",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_98",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_expa_99",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_4_1",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_4_2",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_00",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_01",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_02",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_03",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_04",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_05",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_06",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_07",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_08",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_09",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_10",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_11",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_12",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_13",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_14",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_15",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_16",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_17",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_18",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "clm3_5_19",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_5_20",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_00",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_01",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_02",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_03",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_04",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_05",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_06",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_07",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_08",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_09",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_10",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_11",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_12",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_13",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_14",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_15",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_16",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_17",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_18",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_19",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_20",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_21",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_23",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_24",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_25",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_26",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_27",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_28",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_29",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_30",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_31",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_32",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_33",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_34",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_35",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_36",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_37",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_38",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_39",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_40",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_41",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_42",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_43",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_44",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_45",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_46",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_47",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_48",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_49",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_50",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_51",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_52",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_53",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_54",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_55",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_56",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_57",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_58",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_59",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_60",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_61",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_62",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_63",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_6_64",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_00",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_01",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_02",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_03",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_04",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_05",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_06",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_07",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_08",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_09",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_10",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_11",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_12",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_13",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_14",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_7_15",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm3_8_00",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_00",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_01",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_02",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_03",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_04",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_05",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_06",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_07",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_08",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_09",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_10",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_11",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_12",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_13",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_14",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_15",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_16",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_17",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_18",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_19",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_20",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_21",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_22",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_23",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_24",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_25",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_26",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_27",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_28",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_29",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_30",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_31",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_32",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_33",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_34",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_35",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_36",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_37",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_38",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_39",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_40",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_41",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_42",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_43",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_44",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_45",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_46",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_47",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_48",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_49",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_50",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_51",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_52",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_53",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_54",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_55",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_56",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_57",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_58",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_59",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_60",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_61",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_62",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_63",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_64",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_65",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_66",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_67",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_68",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_69",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_70",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_71",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_72",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_73",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_74",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_75",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_76",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_77",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_78",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_79",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_80",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_0_81",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_00",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_01",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_02",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_03",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_04",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_05",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_06",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_07",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_08",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_09",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_10",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_11",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_15",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_17",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_18",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_19",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_20",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_21",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_22",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_23",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_24",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_25",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_26",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_27",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_28",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_29",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_30",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_31",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_32",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_33",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_34",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_35",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_36",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_37",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_38",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_39",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_40",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_41",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_42",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_43",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_44",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_45",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_46",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_47",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_48",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_49",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_50",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_51",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_52",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_53",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_54",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_55",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_56",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_57",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_58",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_59",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_60",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_61",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_62",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_63",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_64",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_65",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_66",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_67",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_68",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_69",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_70",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_71",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_72",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_73",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_74",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_75",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r076",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r077",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r078",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r079",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r080",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r081",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r082",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r083",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r084",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r085",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r086",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r087",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r088",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r089",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r090",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r091",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r092",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r093",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r094",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r095",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r096",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r097",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r098",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r099",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r100",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r101",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r102",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r103",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r104",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "models/lnd/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r105",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r106",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r107",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r108",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r109",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r110",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r111",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r112",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r113",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r114",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r115",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r116",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r117",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r118",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r119",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_1_r120",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r121",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r122",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r123",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r124",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r125",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r126",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r127",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_2_r128",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r129",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r130",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r131",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r132",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r133",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r134",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r135",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r136",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r137",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r138",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r139",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r140",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r141",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r142",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r143",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r144",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r145",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r146",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r147",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r148",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_3_r149",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_4_r150",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_4_r151",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_5_r152",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r153",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r154",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r155",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r156",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r157",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r158",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r159",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r160",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_6_r161",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_7_r162",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_7_r163",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_7_r164",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_7_r165",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_7_r166",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_7_r167",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r168",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r169",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r170",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r171",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r172",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r173",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r174",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r175",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r176",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r177",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r178",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r179",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r180",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r181",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_8_r182",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_9_r183",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_9_r184",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_9_r185",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_9_r186",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_10_r187",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_11_r188",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_11_r189",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r190",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r191",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r192",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r193",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r194",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r195",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r196",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r197",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r198",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r199",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r200",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r201",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r202",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_12_r203",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r204",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r205",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r206",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r207",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r208",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r209",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r210",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_13_r211",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r212",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r213",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r214",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r215",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r216",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r217",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r218",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r219",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r220",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r221",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r222",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r223",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r224",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r225",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r226",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r227",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r228",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r229",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r230",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_14_r231",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_15_r232",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_15_r233",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_15_r234",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_15_r235",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_15_r236",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r237",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r238",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r239",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r240",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r241",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r242",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r243",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r244",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r245",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r246",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r247",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r248",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r249",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r250",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r251",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r252",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r253",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r254",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
+        }
+    ]
+}

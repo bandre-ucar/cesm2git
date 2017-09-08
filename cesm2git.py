@@ -55,7 +55,7 @@ def commandline_options():
     parser.add_argument('--config', nargs=1, required=True,
                         help='path to config file')
 
-    parser.add_argument('--repo', nargs=1, default=['rtm'],
+    parser.add_argument('--repo', nargs=1, default=['clm-experimental'],
                         help='path to rtm git repo, relative to cwd.')
 
     parser.add_argument('--feelin-lucky', action='store_true', default=False,
@@ -128,13 +128,13 @@ def read_config_file(filename):
     section = "cesm"
     repo_config[section] = {}
     _check_for_required_section(config, section)
-    keys = ["repo", "tag"]
-    for k in keys:
+    for k in config.items(section):
+        key = k[0]
         repo_config[section].update(
             _get_section_required_option(
                 config,
                 section,
-                k))
+                key))
 
     section = "externals"
     repo_config[section] = {}
@@ -160,6 +160,20 @@ def list_to_dict(input_list, upper_case=False):
     return output_dict
 
 
+def string_to_bool(bool_string):
+    """Convert a boolean string to a boolean value
+    """
+    value = None
+    if bool_string.lower() == 'false':
+        value = False
+    elif bool_string.lower() == 'true':
+        value = True
+    else:
+        raise RuntimeError("Invalid string for boolean conversion "
+                           "'{0}'".format(bool_string))
+    return value
+
+
 def new_tag_from_config(config):
     """Generate a meaningful, if very verbose tag name from the specified
     cesm tag and externals
@@ -174,7 +188,7 @@ def new_tag_from_config(config):
     return new_tag
 
 
-def remove_current_working_copy():
+def remove_current_working_copy(cesm_config):
     """Removes the current working copy of cesm so that svn checkout will work.
 
     NOTE(bja, 2016, 2017): if the list of files in the root directory
@@ -205,11 +219,15 @@ def remove_current_working_copy():
     shouldn't be an issue....
 
     """
+    suffix = "standalone"
+    if "shift_root_suffix" in cesm_config:
+        suffix = cesm_config["shift_root_suffix"]
 
     rm_files = [
-        "ChangeSum",
         "ChangeLog",
         ".ChangeLog_template",
+        "ChangeSum",
+        "KnownBugs",
         ".CLMTrunkChecklist",
         "UpDateChangeLog.pl",
         "README",
@@ -218,17 +236,31 @@ def remove_current_working_copy():
         "SVN_EXTERNAL_DIRECTORIES",
         "ExpectedTestFails.xml",
         "parse_cime.cs.status",
+        "Copyright",
+        "COPYRIGHT",
+        "README.DGVM",
+        "Quickstart.GUIDE",
+        "Quickstart.userdatasets",
     ]
+
     for f in rm_files:
         if os.path.exists(f):
             os.remove(f)
 
+        shift_file = "{0}.{1}".format(f, suffix)
+        if os.path.exists(shift_file):
+            os.remove(shift_file)
+
     rm_dirs = [
         "components",
+        "models",
         "cime",
         "doc",
         "bld",
         "src",
+        "src_clm40",
+        "tools",
+        "test",
         "cimetest",
         "cime_config",
     ]
@@ -249,10 +281,14 @@ def svn_checkout_cesm(cesm_config, debug):
     print("Checking out cesm tag from svn...", end='')
     url = cesm_config['repo']
     cesm_tag = cesm_config['tag']
+    tag = os.path.join(url, cesm_tag)
+    if string_to_bool(cesm_config["collapse_standalone"]):
+        tag = os.path.join(tag, cesm_config['standalone_path'])
+
     cmd = [
         "svn",
         "co",
-        "{0}/{1}".format(url, cesm_tag),
+        tag,
         "."
     ]
     output = subprocess.STDOUT
@@ -263,6 +299,8 @@ def svn_checkout_cesm(cesm_config, debug):
     subprocess.check_output(cmd, shell=False, stderr=output)
     if not debug:
         print(" done.")
+    if string_to_bool(cesm_config['shift_root_files']):
+        svn_shift_root_files(cesm_config)
 
 
 def update_svn_externals(temp_repo_dir, repo_url, external_mods):
@@ -387,6 +425,66 @@ def svn_log_info(cesm_config, debug):
     log_info['msg'] = xml.findall('logentry/msg')[0].text
     # print(log_info)
     return log_info
+
+
+def svn_list_root_files(cesm_config):
+    """
+    """
+    url = cesm_config['repo']
+    cesm_tag = cesm_config['tag']
+    cmd = [
+        "svn",
+        "list",
+        "{0}/{1}".format(url, cesm_tag)
+    ]
+    output = subprocess.check_output(cmd, shell=False,
+                                     stderr=subprocess.STDOUT)
+    return output
+
+
+def svn_shift_root_files(cesm_config):
+    """The main checkout shifted the standalone checkout contents back to
+    the root of the repo directory. To preserve all information
+    associated with a tag we need to grab the files from the
+    standalone root, e.g. top level externals.
+
+    Note that the finest level of granularity that svn checkout works
+    on is the directory level. Inorder to grab single files, we need
+    to export (or jump through hoops doing an empty checkout + update
+    single files. But since we already have a checkout of the main
+    model/component dir, export is simpler and avoids confusing svn.)
+
+    """
+    root_files = svn_list_root_files(cesm_config).split()
+    existing_files = os.listdir('.')
+
+    url = cesm_config['repo']
+    cesm_tag = cesm_config['tag']
+    tag = os.path.join(url, cesm_tag)
+
+    for root_file in root_files:
+        if "trunk" in root_file:
+            # one-off mistake in clm4_5_32 that we need to skip to have
+            # everything run automatically
+            break
+        if root_file in cesm_config["standalone_path"]:
+            # 'models' and 'components' directories are returned by svn
+            # list, but we want to skip them.
+            break
+        destination = root_file
+        if destination in existing_files:
+            destination = "{0}.{1}".format(root_file,
+                                           cesm_config["shift_root_suffix"])
+        checkout_path = os.path.join(tag, root_file)
+        cmd = [
+            "svn",
+            "export",
+            checkout_path,
+            destination,
+        ]
+        subprocess.check_output(cmd, shell=False,
+                                stderr=subprocess.STDOUT)
+
 
 # -------------------------------------------------------------------------------
 #
@@ -637,16 +735,18 @@ def main(options):
     clone_cesm_git(repo_dir, temp_repo_dir)
     os.chdir(temp_repo_dir)
     switch_git_branch(config["git"]["branch"])
-    remove_current_working_copy()
+    remove_current_working_copy(config["cesm"])
 
     svn_checkout_cesm(config['cesm'], debug=options.debug)
-    update_svn_externals(
-        temp_repo_dir,
-        config['cesm']['repo'],
-        config['externals'])
-
     svn_log = svn_log_info(config['cesm'], debug=options.debug)
-    git_externals = find_git_externals(temp_repo_dir)
+    git_externals = []
+    if string_to_bool(config['cesm']['checkout_externals']):
+        update_svn_externals(
+            temp_repo_dir,
+            config['cesm']['repo'],
+            config['externals'])
+
+        git_externals = find_git_externals(temp_repo_dir)
     git_add_new_cesm(new_tag, git_externals, svn_log)
     git_update_subtree(git_externals)
 
