@@ -22,9 +22,9 @@ import argparse
 import os
 import shutil
 import subprocess
-import time
 import traceback
 import xml.etree.ElementTree as etree
+import xml.dom.minidom as minidom
 
 if sys.version_info[0] == 2:
     from ConfigParser import SafeConfigParser as config_parser
@@ -59,7 +59,7 @@ def commandline_options():
                         help='path to rtm git repo, relative to cwd.')
 
     parser.add_argument('--feelin-lucky', action='store_true', default=False,
-                        help='push the updated changes back to the master repo')
+                        help='push update back to the master repo')
 
     options = parser.parse_args()
     return options
@@ -101,8 +101,8 @@ def read_config_file(filename):
 
     def _check_for_required_section(conf, section):
         if not conf.has_section(section):
-            raise RuntimeError(
-                "ERROR: repo config file must contain a '{0}' section".format(section))
+            raise RuntimeError("ERROR: repo config file must contain a "
+                               "'{0}' section".format(section))
 
     def _get_section_required_option(conf, section, option, upper_case=False):
         sect = list_to_dict(conf.items(section))
@@ -471,8 +471,14 @@ def svn_shift_root_files(cesm_config):
             # 'models' and 'components' directories are returned by svn
             # list, but we want to skip them.
             break
+        # by default we just use the same filename
         destination = root_file
+        if destination == "SVN_EXTERNAL_DIRECTORIES":
+            # always want standalone externals renamed with suffix.
+            destination = "{0}.{1}".format(root_file,
+                                           cesm_config["shift_root_suffix"])
         if destination in existing_files:
+            # any other duplicate files get renamed
             destination = "{0}.{1}".format(root_file,
                                            cesm_config["shift_root_suffix"])
         checkout_path = os.path.join(tag, root_file)
@@ -583,7 +589,7 @@ def git_update_subtree(git_externals):
         print("    {0}".format(' '.join(cmd)))
         try:
             subprocess.check_call(cmd, shell=False, stderr=subprocess.STDOUT)
-        except subprocess.CalledProcessError as error:
+        except subprocess.CalledProcessError:
                 git_remove_add_subtree(cmd, e['ext_dir'])
 
 
@@ -608,12 +614,13 @@ def git_remove_add_subtree(subtree_cmd, ext_dir):
         # file. It's ok if it doesn't exist.
         if e.returncode != 128:
             raise e
-            
+
     if commit_removal:
         cmd = ['git',
                'commit',
                '-m',
-               'manually remove "{0}" subtree that can not be updated'.format(ext_dir),
+               'manually remove "{0}" subtree that can not be updated'.format(
+                   ext_dir),
         ]
         print("    {0}".format(' '.join(cmd)))
         subprocess.check_call(cmd, shell=False, stderr=subprocess.STDOUT)
@@ -626,7 +633,8 @@ def git_remove_add_subtree(subtree_cmd, ext_dir):
     subtree_cmd[2] = 'add'
     print("    {0}".format(' '.join(subtree_cmd)))
     try:
-        subprocess.check_call(subtree_cmd, shell=False, stderr=subprocess.STDOUT)
+        subprocess.check_call(subtree_cmd, shell=False,
+                              stderr=subprocess.STDOUT)
     except subprocess.CalledProcessError as error:
         print("subtree error :\n{0}".format(error))
         raise RuntimeError(error)
@@ -684,6 +692,7 @@ def git_add_new_cesm(new_tag, git_externals, log_info):
         print(" ".join(cmd))
     subprocess.check_output(cmd, shell=False, stderr=subprocess.STDOUT)
 
+
 def git_status():
     """run the git status command
     """
@@ -711,12 +720,99 @@ def push_to_origin_and_cleanup(branch, new_dir, temp_repo_dir):
     shutil.rmtree(temp_repo_dir)
 
 
+def convert_externals_to_model_definition_xml(
+        externals_filename, model_filename):
+    """
+    """
+    print("Converting externals to model definition xml : {0} : {1}".format(
+        externals_filename, model_filename))
+    externals_list = []
+    try:
+        with open(externals_filename, 'r') as externals_file:
+            for e in externals_file:
+                externals_list.append(e)
+    except IOError as e:
+        return
+
+    externals = {}
+    for e in externals_list:
+        # check for blank lines and comments
+        e = e.strip()
+        if e:
+            if e[0] == '#':
+                e = ''
+        if not e:
+            break
+
+        tree_path, url = e.split()
+        _, name = os.path.split(tree_path)
+        externals[name] = {}
+        externals[name]["tree_path"] = tree_path
+        externals[name]["repo"] = {}
+        if "svn" in url:
+            externals[name]["repo"]["protocol"] = "svn"
+            url_split = url.split('/')
+            root = "/".join(url_split[0:4])
+            tag = "/".join(url_split[4:])
+            externals[name]["repo"]["root"] = root
+            externals[name]["repo"]["tag"] = tag
+        elif "git" in url:
+            externals[name]["repo"]["protocol"] = "git"
+            if "http" in url:
+                url_split = url.split('/')
+                root = "/".join(url_split[0:5])
+                tag = "/".join(url_split[5:])
+            elif "git@" in url:
+                url_split = url.split('/')
+                tag = '/'.join(url_split[-2:])
+                root = '/'.join(url_split[0:-2])
+            externals[name]["repo"]["root"] = root
+            externals[name]["repo"]["tag"] = tag
+        else:
+            raise RuntimeError("unknown repo type {0} : {1}".format(name, url))
+
+    # pp.pprint(externals)
+
+    doc = minidom.Document()
+    doc.appendChild(doc.createComment(" Automatically converted from "
+                                      "{0} ".format(externals_filename)))
+    source_tree = doc.createElement("config_sourcetree")
+    for e in externals:
+        source = doc.createElement("source")
+        source.setAttribute("name", e)
+
+        tree_path = doc.createElement("tree_path")
+        text = doc.createTextNode(externals[e]["tree_path"])
+        tree_path.appendChild(text)
+        source.appendChild(tree_path)
+
+        repo = doc.createElement('repo')
+        repo.setAttribute('protocol', externals[e]['repo']['protocol'])
+
+        root = doc.createElement("root")
+        text = doc.createTextNode(externals[e]['repo']['root'])
+        root.appendChild(text)
+        repo.appendChild(root)
+
+        tag = doc.createElement('tag')
+        text = doc.createTextNode(externals[e]['repo']['tag'])
+        tag.appendChild(text)
+        repo.appendChild(tag)
+
+        source.appendChild(repo)
+        source_tree.appendChild(source)
+    doc.appendChild(source_tree)
+    xml = doc.toprettyxml(indent='    ')
+    # pp.pprint(xml)
+    with open(model_filename, 'w') as xml_file:
+        xml_file.write(xml)
+
+
 # -------------------------------------------------------------------------------
 #
 # main
 #
 # -------------------------------------------------------------------------------
-
 def main(options):
 
     config = read_config_file(options.config[0])
@@ -729,8 +825,8 @@ def main(options):
 
     temp_repo_dir = "{0}/{1}-update-{2}".format(cwd, options.repo[0], new_tag)
     if os.path.isdir(temp_repo_dir):
-        raise RuntimeError(
-            "ERROR: temporary git repo dir already exists:\n    {0}".format(temp_repo_dir))
+        raise RuntimeError("ERROR: temporary git repo dir already exists:\n"
+                           "{0}".format(temp_repo_dir))
 
     clone_cesm_git(repo_dir, temp_repo_dir)
     os.chdir(temp_repo_dir)
@@ -747,6 +843,13 @@ def main(options):
             config['externals'])
 
         git_externals = find_git_externals(temp_repo_dir)
+
+    file_list = [("SVN_EXTERNAL_DIRECTORIES.standalone", "CLM.standalone.xml"),
+                 ("SVN_EXTERNAL_DIRECTORIES", "CLM.xml"),
+    ]
+    for group in file_list:
+        convert_externals_to_model_definition_xml(group[0], group[1])
+
     git_add_new_cesm(new_tag, git_externals, svn_log)
     git_update_subtree(git_externals)
 

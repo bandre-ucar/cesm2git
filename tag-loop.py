@@ -66,6 +66,9 @@ def commandline_options():
     parser.add_argument('--config', nargs=1, required=True,
                         help='path to config file')
 
+    parser.add_argument('--resume', nargs=1, default=[''],
+                        help='resume interrupted look at specified tag.')
+
     parser.add_argument('--tag-file', nargs=1, required=True,
                         help='path to text file containing tags '
                         'to be imported')
@@ -128,7 +131,26 @@ def get_tag_list(tag_filename):
 def main(options):
     tags = get_tag_list(options.tag_file[0])
     config_filename = options.config[0]
+
+    # assume we are doing every tag in the tag file
+    found_resume_tag = True
+    resume = options.resume[0].strip()
+    if resume:
+        # user requested resuming in the middle of the tag file
+        found_resume_tag = False
+        print("Searching for tag {0}".format(resume))
+
     for tag in tags["config"]:
+        if found_resume_tag is False:
+            # we looking to resume a tag
+            # print("Comparing '{0}' : '{1}'".format(resume, tag["tag"]))
+            if resume == tag["tag"]:
+                # current tag is resume point
+                found_resume_tag = True
+            else:
+                # skip this tag and keep looking
+                continue
+
         print("Processing : {0}".format(tag["tag"]))
         config = read_config_file(config_filename)
 
