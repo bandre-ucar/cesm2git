@@ -2,6 +2,9 @@
 **/.svn/**
 .svn/
 
+# binary files
+*.nc
+
 # editor files
 *.swp
 *~
