@@ -287,7 +287,10 @@ def svn_checkout_cesm(cesm_config, debug):
 
     cmd = [
         "svn",
-        "co",
+        "export",
+        "--force",
+        "--ignore-externals",
+        "--ignore-keywords",
         tag,
         "."
     ]
@@ -296,7 +299,13 @@ def svn_checkout_cesm(cesm_config, debug):
         print("\n")
         print(" ".join(cmd))
         output = None
-    subprocess.check_output(cmd, shell=False, stderr=output)
+    try:
+        subprocess.check_output(cmd, shell=False, stderr=output)
+    except subprocess.CalledProcessError as error:
+        print(error)
+        print("    {0}".format(" ".join(cmd)))
+        raise RuntimeError(error)
+
     if not debug:
         print(" done.")
     if string_to_bool(cesm_config['shift_root_files']):
@@ -418,6 +427,8 @@ def svn_log_info(cesm_config, debug):
     else:
         name = author
         email = '{0}@ucar.edu'.format(author)
+    if 'andre' in name:
+        name = 'Ben Andre'
     author = '{0} <{1}>'.format(name, email)
     log_info['author'] = author
 
@@ -470,6 +481,9 @@ def svn_shift_root_files(cesm_config):
         if root_file in cesm_config["standalone_path"]:
             # 'models' and 'components' directories are returned by svn
             # list, but we want to skip them.
+            break
+        if root_file in ['ChangeLog', 'ChangeSum']:
+            # don't copy changelog because it is in doc !
             break
         # by default we just use the same filename
         destination = root_file
@@ -671,16 +685,23 @@ def git_add_new_cesm(new_tag, git_externals, log_info):
     ]
     subprocess.check_output(cmd, shell=False, stderr=subprocess.STDOUT)
 
+    tmp_filename = 'svn-msg.tmp'
+    with open(tmp_filename, 'w') as msg:
+        msg.write('{0}\n\n'.format(new_tag))
+        if log_info['msg']:
+            msg.write("{0}\n".format(log_info['msg']))
+
     cmd = [
         "git",
         "commit",
         "--author={0}".format(log_info['author']),
         "--date='{0}'".format(log_info['date']),
-        "-m", '\'{0}\''.format(log_info['msg']),
+        "-F", tmp_filename,
     ]
     if True:
         print(" ".join(cmd))
     subprocess.check_output(cmd, shell=False, stderr=subprocess.STDOUT)
+    os.remove(tmp_filename)
 
     cmd = [
         "git",
@@ -777,6 +798,7 @@ def convert_externals_to_model_definition_xml(
     doc.appendChild(doc.createComment(" Automatically converted from "
                                       "{0} ".format(externals_filename)))
     source_tree = doc.createElement("config_sourcetree")
+    source_tree.setAttribute("version", "1.0.0")
     for e in externals:
         source = doc.createElement("source")
         source.setAttribute("name", e)
