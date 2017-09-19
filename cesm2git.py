@@ -477,14 +477,14 @@ def svn_shift_root_files(cesm_config):
         if "trunk" in root_file:
             # one-off mistake in clm4_5_32 that we need to skip to have
             # everything run automatically
-            break
+            continue
         if root_file in cesm_config["standalone_path"]:
             # 'models' and 'components' directories are returned by svn
             # list, but we want to skip them.
-            break
+            continue
         if root_file in ['ChangeLog', 'ChangeSum']:
             # don't copy changelog because it is in doc !
-            break
+            continue
         # by default we just use the same filename
         destination = root_file
         if destination == "SVN_EXTERNAL_DIRECTORIES":
