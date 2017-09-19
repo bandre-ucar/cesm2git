@@ -3798,6 +3798,14 @@
             "shift_root_files": true,
             "standalone_path": "components/clm",
             "shift_root_suffix": "standalone"
+        },
+        {
+            "tag": "clm4_5_16_r255",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone"
         }
     ]
 }
