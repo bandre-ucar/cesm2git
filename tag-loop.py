@@ -63,8 +63,8 @@ def commandline_options():
                         help='dry run setting up changes, '
                         'but not calling external programs.')
 
-    parser.add_argument('--config', nargs=1, required=True,
-                        help='path to config file')
+    parser.add_argument('--repo', nargs=1, required=True,
+                        help='path to repo')
 
     parser.add_argument('--resume', nargs=1, default=[''],
                         help='resume interrupted look at specified tag.')
@@ -82,32 +82,13 @@ def commandline_options():
 # work functions
 #
 # -------------------------------------------------------------------------------
-def read_config_file(filename):
-    """Read the configuration file and process
-
-    """
-    #print("Reading configuration file : {0}".format(filename))
-
-    cfg_file = os.path.abspath(filename)
-    if not os.path.isfile(cfg_file):
-        raise RuntimeError("Could not find config file: {0}".format(cfg_file))
-
-    config = config_parser()
-    config.read(cfg_file)
-
-    return config
-
-
 def write_config_file(config, filename):
     """Read the configuration file and process
 
     """
-    #print("Writing configuration file : {0}".format(filename))
+    # print("Writing configuration file : {0}".format(filename))
 
     cfg_file = os.path.abspath(filename)
-    if not os.path.isfile(cfg_file):
-        raise RuntimeError("Could not find config file: {0}".format(cfg_file))
-
     with open(cfg_file, 'w') as configfile:
         config.write(configfile)
 
@@ -129,9 +110,14 @@ def get_tag_list(tag_filename):
 #
 # -------------------------------------------------------------------------------
 def main(options):
-    tags = get_tag_list(options.tag_file[0])
-    config_filename = options.config[0]
+    # git repo that is being manipulated
+    local_git_repo = options.repo[0]
+    config_filename = os.path.join(local_git_repo, 'tmp.cfg')
 
+    tag_file = os.path.join(local_git_repo, options.tag_file[0])
+    tag_input = get_tag_list(tag_file)
+
+    base_info = tag_input['config']
     # assume we are doing every tag in the tag file
     found_resume_tag = True
     resume = options.resume[0].strip()
@@ -140,7 +126,7 @@ def main(options):
         found_resume_tag = False
         print("Searching for tag {0}".format(resume))
 
-    for tag in tags["config"]:
+    for tag in tag_input["tags"]:
         if found_resume_tag is False:
             # we looking to resume a tag
             # print("Comparing '{0}' : '{1}'".format(resume, tag["tag"]))
@@ -151,19 +137,37 @@ def main(options):
                 # skip this tag and keep looking
                 continue
 
+        if 'skip' in tag and tag['skip'] is True:
+                # skip tag for some reason, e.g. bad svn tag
+                continue
         print("Processing : {0}".format(tag["tag"]))
-        config = read_config_file(config_filename)
+        # setup the config file
+        config = config_parser()
+        config.add_section('git')
+        config.add_section('cesm')
+        config.add_section('externals')
 
-        tag_path = os.path.join(tags["tag_directory"], tag["tag"])
+        # local git branch that new tags are added to
+        config.set('git', 'branch', base_info['branch'])
 
+        # configuration for this tag
+        config.set('cesm', 'repo', base_info['repo'])
+        tag_path = os.path.join(base_info["tag_directory"], tag["tag"])
         config.set('cesm', 'tag', tag_path)
 
         config.set('cesm', 'checkout_externals',
                    str(tag['checkout_externals']))
         config.set('cesm', 'collapse_standalone',
                    str(tag['collapse_standalone']))
-        config.set('cesm', 'shift_root_files', str(tag['shift_root_files']))
-        optional_keys = ['shift_root_suffix', 'standalone_path']
+        config.set('cesm', 'shift_root_files',
+                   str(tag['shift_root_files']))
+        value = str(None)
+        if 'generate_model_description' in tag:
+            value = str(tag['generate_model_description'])
+        config.set('cesm', 'generate_model_description', value)
+
+        optional_keys = ['shift_root_suffix',
+                         'standalone_path', ]
         for k in optional_keys:
             try:
                 config.set('cesm', k, tag[k])
@@ -172,9 +176,10 @@ def main(options):
 
         write_config_file(config, config_filename)
 
-        cmd = ['./clm-experimental/cesm2git.py',
-               '--config',
-               config_filename,
+        executable = os.path.join(local_git_repo, 'cesm2git.py')
+        cmd = [executable,
+               '--repo', local_git_repo,
+               '--config', config_filename,
                '--feelin-lucky',
                ]
 

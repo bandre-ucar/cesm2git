@@ -1,0 +1,186 @@
+
+{
+    "config": {
+        "branch": "mosart",
+        "repo": "https://svn-ccsm-models.cgd.ucar.edu",
+        "tag_directory": "mosart/trunk_tags"
+    },
+    "tags": [
+        {
+            "tag": "mosart1_0_00",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_01",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_02",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_03",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_04",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_05",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_06",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_07",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_08",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_09",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_10",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_11",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_12",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_13",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "skip": true,
+            "comment": "NOTE: bad tag. no svn diffs between r13 and r14",
+            "tag": "mosart1_0_14",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_15",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_16",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_17",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_18",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_19",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_20",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_21",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_22",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_23",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_24",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_25",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_26",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_27",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "mosart1_0_28",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        }
+    ]
+}

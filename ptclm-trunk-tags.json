@@ -1,0 +1,258 @@
+
+{
+    "config": {
+        "branch": "ptclm",
+        "repo": "https://svn-ccsm-models.cgd.ucar.edu",
+        "tag_directory": "PTCLM/trunk_tags"
+    },
+    "tags": [
+        {
+            "tag": "PTCLM1_110504",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_110726",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_110902",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_111114",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_111129",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_120125",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130111",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130130",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130216",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130529",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130724",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130910",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130920",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130923",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM1_130929",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_131119",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_131122",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_131122b",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_131122c",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_140204",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_140216",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_140423",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_140521",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_140816",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_150126",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_150410",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_150413",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_150414",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_150826",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_151009",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_160127",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_160127a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_160818",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_170302",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_170706",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_171016",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "skip": true,
+            "comment": "NOTE: bad svn commit, not diff with previous tag",
+            "tag": "PTCLM2_171016b",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_171016c",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_171016d",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_171024",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "PTCLM2_171024b",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        }
+    ]
+}

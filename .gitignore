@@ -1,3 +1,6 @@
+# temporary files created by conversion scripts
+tmp.cfg
+
 # ignore svn directories
 **/.svn/**
 .svn/

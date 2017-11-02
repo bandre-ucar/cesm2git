@@ -694,7 +694,7 @@ def git_add_new_cesm(new_tag, git_externals, log_info):
     cmd = [
         "git",
         "commit",
-        "--author={0}".format(log_info['author']),
+        "--author='{0}'".format(log_info['author']),
         "--date='{0}'".format(log_info['date']),
         "-F", tmp_filename,
     ]
@@ -866,11 +866,13 @@ def main(options):
 
         git_externals = find_git_externals(temp_repo_dir)
 
-    file_list = [("SVN_EXTERNAL_DIRECTORIES.standalone", "CLM.standalone.xml"),
-                 ("SVN_EXTERNAL_DIRECTORIES", "CLM.xml"),
-    ]
-    for group in file_list:
-        convert_externals_to_model_definition_xml(group[0], group[1])
+    if string_to_bool(config['cesm']['generate_model_description']):
+        file_list = [
+            ("SVN_EXTERNAL_DIRECTORIES.standalone", "CLM.standalone.xml"),
+            ("SVN_EXTERNAL_DIRECTORIES", "CLM.xml"),
+        ]
+        for group in file_list:
+            convert_externals_to_model_definition_xml(group[0], group[1])
 
     git_add_new_cesm(new_tag, git_externals, svn_log)
     git_update_subtree(git_externals)

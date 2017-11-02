@@ -1,0 +1,388 @@
+
+{
+    "config": {
+        "branch": "rtm",
+        "repo": "https://svn-ccsm-models.cgd.ucar.edu",
+        "tag_directory": "rivrtm/trunk_tags"
+    },
+    "tags": [
+        {
+            "tag": "rtm1_0_01",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_02",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_03",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_04",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_05",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_06",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_07",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_08",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_09",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_10",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_11",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_12",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_13",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_14",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_15",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_16",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_17",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_18",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_19",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_20",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_21",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_22",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_23",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_24",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_25",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_26",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_27",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_28",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_29",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_30",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_31",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_32",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_33",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_34",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_35",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_36",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_37",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_38",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_39",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_40",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_41",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_42",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_43",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_44",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_45",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_46",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_47",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_48",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_49",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_50",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_51",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_52",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_53",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_54",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_55",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_56",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_57",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_58",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_59",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_60",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_61",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_62",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "rtm1_0_63",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        }
+    ]
+}

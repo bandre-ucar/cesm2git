@@ -1,0 +1,980 @@
+
+{
+    "config": {
+        "branch": "cism",
+        "repo": "https://svn-ccsm-models.cgd.ucar.edu",
+        "tag_directory": "glc/trunk_tags"
+    },
+    "tags": [
+        {
+            "tag": "glc_070726",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc_071105",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc_080817",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc_081017",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_090116",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_090813",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_090814",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_091027",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_091103",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_091124",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_091125",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_091224",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_100301",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_100316",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_100322",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_100330",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "glc4_100507",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100525",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "skip": true,
+            "comment": "NOTE: bad svn tag, no diffs with previous tag",
+            "tag": "cism1_100525a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100525b",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100603",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100608",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100616",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100616a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100617",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100617a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_100913",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_110124",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_110125",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_110220",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_110307",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_110418",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111004",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111007",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111026",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111122",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111214",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111218",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111220",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111220a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_111221",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120123",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120322",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120512",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120521",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120529",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120629",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120823",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120829",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120905",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_120921",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121001",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121002",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121008",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121009",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121010",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121012",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121106",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121106a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121113",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_121114",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "cism1_130207",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130306",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130307",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130315",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130325",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130401",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130403",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130405",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130425",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130428",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130429",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130430",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130430a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130502",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130514",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130524",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130624",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130905",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_130924",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_131008",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_131203",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_131212",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_131212a",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_131213",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140203",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140303",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140305",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140403",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140416",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140501",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140602",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140914",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_140916",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism1_141006",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_00",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_01",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_02",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_03",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_04",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_05",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_06",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_07",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_08",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_0_09",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_00",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_01",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_02",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_03",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_04",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_05",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_06",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_07",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_08",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_09",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_10",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_11",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_12",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_13",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_14",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_15",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_16",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_17",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_18",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_19",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_20",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_21",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_22",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_23",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_24",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_25",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_26",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_27",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_28",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_29",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_30",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_31",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_32",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_33",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_34",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_35",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_36",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_37",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_38",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_39",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_40",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_41",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        }
+    ]
+}

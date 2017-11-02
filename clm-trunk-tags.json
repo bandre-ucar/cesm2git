@@ -1,6 +1,10 @@
 {
-    "tag_directory": "clm2/trunk_tags",
-    "config": [
+    "config": {
+        "branch": "clm",
+        "repo": "https://svn-ccsm-models.cgd.ucar.edu",
+        "tag_directory": "clm2/trunk_tags"
+    },
+    "tags": [
         {
             "tag": "clm3_expa_48",
             "checkout_externals": false,
@@ -3765,7 +3769,8 @@
             "collapse_standalone": true,
             "shift_root_files": true,
             "standalone_path": "components/clm",
-            "shift_root_suffix": "standalone"
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
         },
         {
             "tag": "clm4_5_16_r251",
@@ -3773,7 +3778,8 @@
             "collapse_standalone": true,
             "shift_root_files": true,
             "standalone_path": "components/clm",
-            "shift_root_suffix": "standalone"
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
         },
         {
             "tag": "clm4_5_16_r252",
@@ -3781,7 +3787,8 @@
             "collapse_standalone": true,
             "shift_root_files": true,
             "standalone_path": "components/clm",
-            "shift_root_suffix": "standalone"
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
         },
         {
             "tag": "clm4_5_16_r253",
@@ -3789,7 +3796,8 @@
             "collapse_standalone": true,
             "shift_root_files": true,
             "standalone_path": "components/clm",
-            "shift_root_suffix": "standalone"
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
         },
         {
             "tag": "clm4_5_16_r254",
@@ -3797,7 +3805,8 @@
             "collapse_standalone": true,
             "shift_root_files": true,
             "standalone_path": "components/clm",
-            "shift_root_suffix": "standalone"
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
         },
         {
             "tag": "clm4_5_16_r255",
@@ -3805,7 +3814,71 @@
             "collapse_standalone": true,
             "shift_root_files": true,
             "standalone_path": "components/clm",
-            "shift_root_suffix": "standalone"
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
+        },
+        {
+            "tag": "clm4_5_16_r256",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
+        },
+        {
+            "tag": "clm4_5_16_r257",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
+        },
+        {
+            "tag": "clm4_5_16_r258",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
+        },
+        {
+            "tag": "clm4_5_16_r259",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
+        },
+        {
+            "tag": "clm4_5_16_r260",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
+        },
+        {
+            "tag": "clm4_5_16_r261",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
+        },
+        {
+            "tag": "clm4_5_16_r262",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_model_definition": true
         }
     ]
 }
