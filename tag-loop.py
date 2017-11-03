@@ -161,7 +161,7 @@ def main(options):
                    str(tag['collapse_standalone']))
         config.set('cesm', 'shift_root_files',
                    str(tag['shift_root_files']))
-        value = str(None)
+        value = str(False)
         if 'generate_model_description' in tag:
             value = str(tag['generate_model_description'])
         config.set('cesm', 'generate_model_description', value)
