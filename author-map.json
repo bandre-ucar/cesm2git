@@ -1,0 +1,20 @@
+{
+    "andre": {"name": "Ben Andre", "email": "andre@ucar.edu"},
+    "bandre": {"name": "Ben Andre", "email": "andre@ucar.edu"},
+    "sacks": {"name": "Bill Sacks", "email": "sacks@ucar.edu"},
+    "erik": {"name": "Erik Kluzek", "email": "erik@ucar.edu"},
+    "muszala": {"name": "Stefan Muszala", "email": "muszala@ucar.edu"},
+    "mvertens": {"name": "Mariana Vertenstein", "email": "mvertens@ucar.edu"},
+    "tcraig": {"name": "Tony Craig", "email": "tcraig@ucar.edu"},
+    "nanr": {"name": "Nan Rosenbloom", "email": "nanr@ucar.edu"},
+    "oleson": {"name": "Keith Oleson", "email": "oleson@ucar.edu"},
+    "mvr": {"name": "Mathew Rothstein", "email": "mvr@ucar.edu"},
+    "kauff": {"name": "Brian Kauffman", "email": "kauff@ucar.edu"},
+    "jet": {"name": "John Truesdale", "email": "jet@ucar.edu"},
+    "jedwards": {"name": "Jim Edwards", "email": "jedwards@ucar.edu"},
+    "lipscomb": {"name": "William Lipscomb", "email": "lipscomb@ucar.edu"},
+    "fischer": {"name": "Chris Fischer", "email": "fischer@ucar.edu"},
+    "cacraig": {"name": "Cheryl Craig", "email": "cacraig@ucar.edu"},
+    "swensosc": {"name": "Sean Swenson", "email": "swensosc@ucar.edu"},
+    "katec": {"name": "Katherine Thayer-Calder", "email": "katec@ucar.edu"}
+}

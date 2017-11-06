@@ -19,6 +19,7 @@ if sys.hexversion < 0x02070000:
     sys.exit(1)
 
 import argparse
+import json
 import os
 import shutil
 import subprocess
@@ -44,6 +45,9 @@ def commandline_options():
     """
     parser = argparse.ArgumentParser(
         description='FIXME: python program template.')
+
+    parser.add_argument('--authors', nargs=1, default=['author-map.json'],
+                        help='path to authors json file')
 
     parser.add_argument('--backtrace', action='store_true',
                         help='show exception backtraces as extra debugging '
@@ -241,6 +245,13 @@ def remove_current_working_copy(cesm_config):
         "README.DGVM",
         "Quickstart.GUIDE",
         "Quickstart.userdatasets",
+        "PTCLM.py",
+        "PTCLMmkdata",
+        "PTCLMsublist",
+        "PTCLMsublist_prog.py",
+        "batchque.py",
+        "buildtools",
+        "testcases.csh",
     ]
 
     for f in rm_files:
@@ -263,6 +274,21 @@ def remove_current_working_copy(cesm_config):
         "test",
         "cimetest",
         "cime_config",
+        "cesmtest",
+        "source_glc",
+        "source_glc.latest",
+        "source_glimmer",
+        "source_glimmer-cism",
+        "source_glimmer.latest",
+        "source_slap",
+        "drivers",
+        "mpi",
+        "input_templates",
+        "PTCLM_sitedata",
+        "mydatafiles",
+        "test",
+        "usr_files",
+
     ]
 
     for d in rm_dirs:
@@ -391,7 +417,7 @@ def svn_switch(temp_repo_dir, switch_dir, url, tag):
     os.chdir(temp_repo_dir)
 
 
-def svn_log_info(cesm_config, debug):
+def svn_log_info(cesm_config, author_map, debug):
     """Extract the svn commit info so we can use it in the git commit.
 
     """
@@ -421,14 +447,22 @@ def svn_log_info(cesm_config, debug):
     xml = etree.fromstring(output)
     # print(xml)
     author = xml.findall('logentry/author')[0].text
+
+    # setup a sane default based on svn user info
     if '@' in author:
         name = author.split('@')[0]
         email = author
     else:
         name = author
         email = '{0}@ucar.edu'.format(author)
-    if 'andre' in name:
-        name = 'Ben Andre'
+
+    # try to find real name from our map file
+    if name in author_map:
+        # NOTE(bja, 2017-11) must set name last because overwritting
+        # name will cause a key error!
+        email = author_map[name]['email']
+        name = author_map[name]['name']
+
     author = '{0} <{1}>'.format(name, email)
     log_info['author'] = author
 
@@ -706,7 +740,7 @@ def git_add_new_cesm(new_tag, git_externals, log_info):
     cmd = [
         "git",
         "tag", "--annotate",
-        "-m", "\'tag {0} from svn\'".format(new_tag),
+        "-m", "tag {0} from svn".format(new_tag),
         new_tag
     ]
     if True:
@@ -856,7 +890,10 @@ def main(options):
     remove_current_working_copy(config["cesm"])
 
     svn_checkout_cesm(config['cesm'], debug=options.debug)
-    svn_log = svn_log_info(config['cesm'], debug=options.debug)
+    authors_path = os.path.join(repo_dir, options.authors[0])
+    with open(authors_path, 'r') as author_file:
+        author_map = json.load(author_file)
+    svn_log = svn_log_info(config['cesm'], author_map, debug=options.debug)
     git_externals = []
     if string_to_bool(config['cesm']['checkout_externals']):
         update_svn_externals(
