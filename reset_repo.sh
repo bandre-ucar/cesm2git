@@ -16,7 +16,7 @@ if [ "${BRANCH}" = "cism" ]; then
     echo ${TAGS}
 fi
 
-ROOT_CHANGESET=a0a50e5df
+ROOT_CHANGESET=73643271cd5c
 
 for tag in ${TAGS[@]}; do
     git tag -d ${tag}

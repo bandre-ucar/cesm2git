@@ -162,9 +162,9 @@ def main(options):
         config.set('cesm', 'shift_root_files',
                    str(tag['shift_root_files']))
         value = str(False)
-        if 'generate_model_description' in tag:
-            value = str(tag['generate_model_description'])
-        config.set('cesm', 'generate_model_description', value)
+        if 'generate_externals_description' in tag:
+            value = str(tag['generate_externals_description'])
+        config.set('cesm', 'generate_externals_description', value)
 
         optional_keys = ['shift_root_suffix',
                          'standalone_path', ]

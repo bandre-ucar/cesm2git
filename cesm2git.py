@@ -864,6 +864,83 @@ def convert_externals_to_model_definition_xml(
         xml_file.write(xml)
 
 
+def convert_externals_to_externals_description_cfg(
+        externals_filename, model_filename):
+    """
+    """
+    print("Converting externals to externals description cfg : {0} : {1}".format(
+        externals_filename, model_filename))
+    externals_list = []
+    try:
+        with open(externals_filename, 'r') as externals_file:
+            for e in externals_file:
+                externals_list.append(e)
+    except IOError as e:
+        return
+
+    externals = {}
+    for e in externals_list:
+        # check for blank lines and comments
+        e = e.strip()
+        if e:
+            if e[0] == '#':
+                e = ''
+        if not e:
+            break
+
+        tree_path, url = e.split()
+        _, name = os.path.split(tree_path)
+        externals[name] = {}
+        externals[name]["tree_path"] = tree_path
+        externals[name]["repo"] = {}
+        if "svn" in url:
+            externals[name]["repo"]["protocol"] = "svn"
+            url_split = url.split('/')
+            root = "/".join(url_split[0:4])
+            tag = "/".join(url_split[4:])
+            externals[name]["repo"]["root"] = root
+            externals[name]["repo"]["tag"] = tag
+        elif "git" in url:
+            externals[name]["repo"]["protocol"] = "git"
+            if "http" in url:
+                url_split = url.split('/')
+                root = "/".join(url_split[0:5])
+                tag = "/".join(url_split[5:])
+            elif "git@" in url:
+                url_split = url.split('/')
+                tag = '/'.join(url_split[-2:])
+                root = '/'.join(url_split[0:-2])
+            externals[name]["repo"]["root"] = root
+            externals[name]["repo"]["tag"] = tag
+        else:
+            raise RuntimeError("unknown repo type {0} : {1}".format(name, url))
+
+    # pp.pprint(externals)
+
+    config = config_parser()
+    if 'CESM' in model_filename:
+        config.add_section('ctsm')
+        config.set('ctsm', 'local_path', '.')
+        config.set('ctsm', 'protocol', 'externals_only')
+        config.set('ctsm', 'externals', 'CLM.cfg')
+        config.set('ctsm', 'required', 'True')
+
+    for e in externals:
+        config.add_section(e)
+        config.set(e, 'local_path', externals[e]["tree_path"])
+
+        config.set(e, 'protocol', externals[e]['repo']['protocol'])
+        config.set(e, 'repo_url', externals[e]['repo']['root'])
+        config.set(e, 'tag', externals[e]['repo']['tag'])
+        config.set(e, 'required', 'True')
+
+    config.add_section('externals_description')
+    config.set('externals_description', "schema_version", "1.0.0")
+
+    with open(model_filename, 'w') as file_handle:
+        config.write(file_handle)
+
+
 # -------------------------------------------------------------------------------
 #
 # main
@@ -903,13 +980,15 @@ def main(options):
 
         git_externals = find_git_externals(temp_repo_dir)
 
-    if string_to_bool(config['cesm']['generate_model_description']):
-        file_list = [
-            ("SVN_EXTERNAL_DIRECTORIES.standalone", "CLM.standalone.xml"),
-            ("SVN_EXTERNAL_DIRECTORIES", "CLM.xml"),
-        ]
-        for group in file_list:
-            convert_externals_to_model_definition_xml(group[0], group[1])
+    gen_ext_descr = 'generate_externals_description'
+    if gen_ext_descr in config['cesm']:
+        if string_to_bool(config['cesm'][gen_ext_descr]):
+            file_list = [
+                ("SVN_EXTERNAL_DIRECTORIES.standalone", "CESM.cfg"),
+                ("SVN_EXTERNAL_DIRECTORIES", "CLM.cfg"),
+            ]
+            for group in file_list:
+                convert_externals_to_externals_description_cfg(group[0], group[1])
 
     git_add_new_cesm(new_tag, git_externals, svn_log)
     git_update_subtree(git_externals)
