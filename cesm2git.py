@@ -886,7 +886,11 @@ def convert_externals_to_externals_description_cfg(
             if e[0] == '#':
                 e = ''
         if not e:
-            break
+            continue
+        if 'gen_domain' in e:
+            # clm insists in pulling in part of cime into it's own
+            # dir. don't try to put that into an external.
+            continue
 
         tree_path, url = e.split()
         _, name = os.path.split(tree_path)
@@ -905,7 +909,10 @@ def convert_externals_to_externals_description_cfg(
             if "http" in url:
                 url_split = url.split('/')
                 root = "/".join(url_split[0:5])
-                tag = "/".join(url_split[5:])
+                begin_tag = 5
+                if 'tag' in url_split[begin_tag]:
+                    begin_tag += 1
+                tag = "/".join(url_split[begin_tag:])
             elif "git@" in url:
                 url_split = url.split('/')
                 tag = '/'.join(url_split[-2:])
