@@ -975,6 +975,27 @@
             "collapse_standalone": false,
             "shift_root_files": false,
             "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_42",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_43",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
+        },
+        {
+            "tag": "cism2_1_44",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false,
+            "generate_model_description": false
         }
     ]
 }
