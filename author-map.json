@@ -16,5 +16,7 @@
     "fischer": {"name": "Chris Fischer", "email": "fischer@ucar.edu"},
     "cacraig": {"name": "Cheryl Craig", "email": "cacraig@ucar.edu"},
     "swensosc": {"name": "Sean Swenson", "email": "swensosc@ucar.edu"},
-    "katec": {"name": "Katherine Thayer-Calder", "email": "katec@ucar.edu"}
+    "katec": {"name": "Katherine Thayer-Calder", "email": "katec@ucar.edu"},
+    "altuntas": {"name": "Alper Altuntas", "email": "altuntas@ucar.edu" },
+    "alperaltuntas": {"name": "Alper Altuntas", "email": "altuntas@ucar.edu" }
 }

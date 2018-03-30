@@ -1,0 +1,109 @@
+
+{
+    "config": {
+        "branch": "hillslope",
+        "repo": "https://svn-ccsm-models.cgd.ucar.edu",
+        "tag_directory": "clm2/branch_tags/hillslope_hydrology_tags"
+    },
+    "tags": [
+        {
+            "tag": "hillslope_hydrology_n01_clm4_5_14_r223",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n02_clm4_5_14_r223",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n03_clm4_5_14_r223",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n04_clm4_5_14_r226",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n05_clm4_5_14_r226",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n06_clm4_5_14_r226",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n07_clm4_5_14_r226",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n08_clm4_5_14_r226",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n09_clm4_5_14_r226",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n09_clm4_5_18_r270",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "hillslope_hydrology_n10_clm4_5_18_r270",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        }
+    ]
+}

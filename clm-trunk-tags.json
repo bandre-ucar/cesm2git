@@ -3951,6 +3951,24 @@
             "standalone_path": "components/clm",
             "shift_root_suffix": "standalone",
             "generate_externals_description": false
+        },
+        {
+            "tag": "clm4_5_18_r271",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
+        },
+        {
+            "tag": "clm4_5_18_r272",
+            "checkout_externals": false,
+            "collapse_standalone": true,
+            "shift_root_files": true,
+            "standalone_path": "components/clm",
+            "shift_root_suffix": "standalone",
+            "generate_externals_description": false
         }
     ]
 }

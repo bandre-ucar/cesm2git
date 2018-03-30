@@ -16,7 +16,10 @@ if [ "${BRANCH}" = "cism" ]; then
     echo ${TAGS}
 fi
 
-ROOT_CHANGESET=68ed9d5b728
+# ROOT_CHANGESET=68ed9d5b728
+
+# ww3 specific license file
+ROOT_CHANGESET=6ce7fc207a2cd152e
 
 for tag in ${TAGS[@]}; do
     git tag -d ${tag}

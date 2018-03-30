@@ -1,0 +1,154 @@
+
+{
+    "config": {
+        "branch": "ww3",
+        "repo": "https://svn-ccsm-models.cgd.ucar.edu",
+        "tag_directory": "ww3/trunk_tags"
+    },
+    "tags": [
+        {
+            "tag": "ww3_111230",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_120227",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_120308",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_130313",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_130314",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_130905",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_150311",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_150818",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_150826",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_150923",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_150925",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_151016",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_160611",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_160824",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_161014",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_161208",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_170103",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_170502",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_170514",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_170516",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_170630",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_170731",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_171211",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        },
+        {
+            "tag": "ww3_180115",
+            "checkout_externals": false,
+            "collapse_standalone": false,
+            "shift_root_files": false
+        }
+    ]
+}
